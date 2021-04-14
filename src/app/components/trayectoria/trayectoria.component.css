@@ -1,0 +1,64 @@
+.jumbotron {
+    background: url("./../../../assets/imagenes/portada_2.jpg") no-repeat center;  
+    height: 600px;
+    background-size: cover;
+    position: relative; 
+    color: #421728;
+}
+.main{
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.main .info1{
+    order: 1;
+    width: 100%;
+    padding: 50px;
+    background: black;
+    
+    color: #C6EAF0;
+    font-size: 1.5rem;
+    font-family:sans-serif;
+}
+.main .info2{
+    order: 2;
+    width: 100%;
+    padding: 40px;
+    background: white;
+        
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.main .info2 .texto2{ 
+    border: 5px solid #0FA976;
+    border-radius: 20px;
+    padding: 32px;
+    background: #B7D6CC;
+    
+    order: 1;
+    flex: 1 2 59%;
+    color: #0F8B62;
+    font-size: 1.5rem;
+    font-family:sans-serif;
+}
+.main .info2 .media2{
+    order: 2;
+    flex: 1 2 40%;
+    
+    padding: 20px;
+    margin-left: 10px;
+}
+.main .info3{
+    order: 3;
+    width: 100%;
+    padding: 50px;
+    background: #7DCFDC;
+    
+    color: black;
+    font-size: 1.5rem;
+    font-family:sans-serif;
+}

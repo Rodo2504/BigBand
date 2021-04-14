@@ -1,0 +1,61 @@
+.jumbotron {
+    background: url("./../../../assets/imagenes/IMG-20190819-WA0007.jpg") no-repeat center;
+    height: 750px;
+    background-size: cover;
+    position: relative;
+}
+.main{
+    background: white;
+    padding: 50px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    color: #284A3C;
+    border-radius: 8px;
+    border: 3px ridge #22C67F;
+    padding: 20px;
+    background: #9EE7C7;
+    box-shadow: 13px 18px #C7D7D0;
+    font-family:inherit;
+    font-size: 1.5rem;
+}
+.carrusel{
+    width: 100%;
+    background: black;
+    padding: 10px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.carru{
+    margin-top: 25px;
+    width: 900px;
+    padding: 0px;
+}
+.info2{
+    width: 100%;
+    padding: 50px;
+    background: #9AACA4;
+    height: 500px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+}
+.video{
+    order: 1;
+    flex: 1 2 50%;
+    margin-right: 50px;
+}
+.contacto{
+    order: 2;
+    flex: 1 2 30%;
+    padding: 25px;
+    font-family: monospace;
+}

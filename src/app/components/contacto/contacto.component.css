@@ -1,0 +1,40 @@
+.main{
+    padding: 47px;
+    margin-top: 25px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.redes{
+    order: 1;
+    flex: 1 2 30%;
+    padding: 30px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;    
+}
+.redes1{
+    order: 1;
+    flex: 1 2 30%;
+    font-size: 18px;
+}
+
+.form{
+    margin-top: 35px;
+    order: 2;
+    flex: 1 2 60%;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    
+    font-size: 22px;
+}
+.maps{
+    order: 2;
+    flex: 1 2 60%;
+    padding: 30px;
+}
